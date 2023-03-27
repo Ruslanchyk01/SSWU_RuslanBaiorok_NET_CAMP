@@ -44,15 +44,15 @@ namespace Task2
                 }
                 sb.Append("\n");
             }
-            sb.Append("Індекс [i] найдовшої лінії: " + _longestLineIndex);
+            sb.Append($"Індекс [i] найдовшої лінії: {_longestLineIndex}");
             sb.Append("\n");
-            sb.Append("Початковий індекс [j] найдовшої лінії: " + _longestLineStartIndex);
+            sb.Append($"Початковий індекс [j] найдовшої лінії: {_longestLineStartIndex}");
             sb.Append("\n");
-            sb.Append("Кінцевий індекс [j] найдовшої лінії: " + _longestLineEndIndex);
+            sb.Append($"Кінцевий індекс [j] найдовшої лінії: {_longestLineEndIndex}");
             sb.Append("\n");
-            sb.Append("Довжина найдовшої лінії: " + _longestLineLength);
+            sb.Append($"Довжина найдовшої лінії: {_longestLineLength}");
             sb.Append("\n");
-            sb.Append("Колір найдовшої лінії: " + _matrix[_longestLineIndex, _longestLineStartIndex]);
+            sb.Append($"Колір найдовшої лінії: {_matrix[_longestLineIndex, _longestLineStartIndex]}");
             return sb.ToString();
         }
 
