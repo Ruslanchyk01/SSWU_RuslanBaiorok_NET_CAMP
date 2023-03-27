@@ -20,7 +20,7 @@ namespace Task2
 			_sizeN = sizeN;
 			_sizeM = sizeM;
 
-            _matrix = new int[_sizeN, _sizeM];
+            _matrix = new int[sizeN, sizeM];
 
             Random random = new Random();
             for (int i = 0; i < sizeN; i++)
