@@ -7,13 +7,12 @@ namespace Home_task_2
         private readonly int _id; // номер користувача
         private readonly float _rateWaterConsumption = 0.1f; // використання води на секунду
         private readonly int _usingWaterTime; // загальний час використання води на день
-
+        private Random random = new Random();
 
         public User()
         {
             _lastId++;
             _id = _lastId;
-            Random random = new Random();
             _usingWaterTime = random.Next(3600, 10800);
         }
         public User(float rateWaterConsumption)
@@ -24,7 +23,6 @@ namespace Home_task_2
             {
                 _rateWaterConsumption = rateWaterConsumption;
             }
-            Random random = new Random();
             _usingWaterTime = random.Next(3600, 10800); // користувач може в сумі використовувати воду від 1 години до 3 годин часу на день
         }
 
