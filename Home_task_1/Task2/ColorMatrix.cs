@@ -9,7 +9,7 @@ namespace Task2
         private int _sizeM; // кількість стовпчиків
 
         private int[,] _matrix;
-
+// Краще ці атрибути визначити як параметри результату методу, а не поля.
         private int _longestLineIndex = 0; // індекс [i] найдовшої лінії
         private int _longestLineStartIndex = 0; // індекс [j] початку найдовшої лінії
         private int _longestLineEndIndex = 0; // індекс [j] кінця найдовшої лінії
@@ -44,6 +44,7 @@ namespace Task2
                 }
                 sb.Append("\n");
             }
+// Не вартує об'єднувати сстан системи і результат одного з методів. Це зробить проблемним додавання інших методів заповнення матриці при потребі.		
             sb.Append($"Індекс [i] найдовшої лінії: {_longestLineIndex}");
             sb.Append("\n");
             sb.Append($"Початковий індекс [j] найдовшої лінії: {_longestLineStartIndex}");
