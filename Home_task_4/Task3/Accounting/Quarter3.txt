@@ -1,0 +1,5 @@
+Number of apartments: 4; Quarter number: 3
+Address: LELELE, 1; Apartment number: 1; Owner: Ivan; Electricity readings: 323192 - 543235; Paid: 10000; Date: 15.07.22 - 15.08.22 - 15.09.22
+Address: lol, 1; Apartment number: 2; Owner: Dominika; Electricity readings: 195345 - 323192; Paid: 10000; Date: 28.07.22 - 28.08.22 - 28.09.22
+Address: kaka, 1; Apartment number: 3; Owner: Nazar; Electricity readings: 111111 - 323192; Paid: 10000; Date: 09.07.22 - 09.08.22 - 09.09.22
+Address: kaka, 1; Apartment number: 4; Owner: Nazar; Electricity readings: 111111 - 111111; Paid: 10000; Date: 09.07.22 - 09.08.22 - 09.09.22

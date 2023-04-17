@@ -1,0 +1,5 @@
+﻿using Task2;
+
+EmailCheker emailCheker = new("simple@example.com\nvery.common@example.com\ndisposable.style.email.with+symbol@example.com\nother.email-with-hyphen@example.com\nfully-qualified-domain@example.com\nuser.name+tag+sorting@example.comsimple@example.com, simpl(rrrrr)e@example.com, simple@example.com(rrrr), simp\"dds..adsa\"le@example.com x@example.com example-indeed@strange-example.com\nadmin@mailserver1 \" \"@example.org example@s.example \"john..doe\"@example.org mailhost!username@example.org user%example.com@example.org" +
+    "Abc.example.com A@b@c@example.com \"b(c)d,e:f;g<h>i[j\\k]l@example.com just\"not\"right@example.com this is\"not\\allowed@example.com this\\ still\\\"not\\\\allowed@example.com 1234567890123456789012345678901234567890123456789012345678901234+x@example.com i_like_underscore@but_its_not_allow_in _this_part.example.com");
+Console.WriteLine(emailCheker);

@@ -1,0 +1,10 @@
+Number of apartments: 9; Quarter number: 4
+Address: LELELE, 1; Apartment number: 1; Owner: Ivan; Electricity readings: 323192 - 543235; Paid: 10000; Date: 15.10.22 - 15.11.22 - 15.12.22
+Address: lol, 1; Apartment number: 2; Owner: Dominika; Electricity readings: 195345 - 323192; Paid: 10000; Date: 28.10.22 - 28.11.22 - 28.12.22
+Address: kaka, 1; Apartment number: 3; Owner: Nazar; Electricity readings: 111111 - 193425; Paid: 10000; Date: 09.10.22 - 09.11.22 - 09.12.22
+Address: LELELE, 1; Apartment number: 4; Owner: Ivan; Electricity readings: 543235 - 543235; Paid: 10000; Date: 15.10.22 - 15.11.22 - 15.12.22
+Address: lol, 1; Apartment number: 5; Owner: Dominika; Electricity readings: 195345 - 323192; Paid: 10000; Date: 28.10.22 - 28.11.22 - 28.12.22
+Address: kaka, 1; Apartment number: 6; Owner: Nazar; Electricity readings: 111111 - 323192; Paid: 10000; Date: 09.10.22 - 09.11.22 - 09.12.22
+Address: LELELE, 1; Apartment number: 7; Owner: Ivan; Electricity readings: 193425 - 543235; Paid: 10000; Date: 15.10.22 - 15.11.22 - 15.12.22
+Address: lol, 1; Apartment number: 8; Owner: Dominika; Electricity readings: 195345 - 323192; Paid: 10000; Date: 28.10.22 - 28.11.22 - 28.12.22
+Address: kaka, 1; Apartment number: 9; Owner: Nazar; Electricity readings: 323192 - 323192; Paid: 10000; Date: 09.10.22 - 09.11.22 - 09.12.22

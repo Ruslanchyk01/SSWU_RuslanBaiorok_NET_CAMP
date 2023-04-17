@@ -1,0 +1,9 @@
+Number of apartments: 8; Quarter number: 2
+Address: UPA, 1; Apartment number: 1; Owner: Baiorok; Electricity readings: 432432 - 432432; Paid: 10000; Date: 20.04.22 - 20.05.22 - 20.06.22
+Address: Key, 1; Apartment number: 2; Owner: Ruslan; Electricity readings: 123123 - 432432; Paid: 10000; Date: 10.04.22 - 10.05.22 - 10.06.22
+Address: LELELE, 1; Apartment number: 3; Owner: Ivan; Electricity readings: 195345 - 543235; Paid: 10000; Date: 15.04.22 - 15.05.22 - 15.06.22
+Address: lol, 1; Apartment number: 4; Owner: Dominika; Electricity readings: 195345 - 323192; Paid: 10000; Date: 28.04.22 - 28.05.22 - 28.06.22
+Address: kaka, 1; Apartment number: 5; Owner: Nazar; Electricity readings: 203192 - 323192; Paid: 10000; Date: 09.04.22 - 09.05.22 - 09.06.22
+Address: LELELE, 1; Apartment number: 6; Owner: Ivan; Electricity readings: 111111 - 543235; Paid: 10000; Date: 15.04.22 - 15.05.22 - 15.06.22
+Address: lol, 1; Apartment number: 7; Owner: Dominika; Electricity readings: 195345 - 323192; Paid: 10000; Date: 28.04.22 - 28.05.22 - 28.06.22
+Address: kaka, 1; Apartment number: 8; Owner: Nazar; Electricity readings: 123192 - 123192; Paid: 10000; Date: 09.04.22 - 09.05.22 - 09.06.22

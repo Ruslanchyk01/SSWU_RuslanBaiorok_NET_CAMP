@@ -57,6 +57,10 @@ namespace Home_task_2
         {
             _users.Add(user);
         }
+        public void RemoveUser(User user)
+        {
+            _users.Remove(user);
+        }
     }
 }
 
