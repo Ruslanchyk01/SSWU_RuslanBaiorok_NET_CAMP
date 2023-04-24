@@ -1,7 +1,7 @@
 ﻿using System;
 
 namespace Tensor
-{
+{// тут немає навіть ідеї
     class Tens
     {
         private readonly int[] _size;
