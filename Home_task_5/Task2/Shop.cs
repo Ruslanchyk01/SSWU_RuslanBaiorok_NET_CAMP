@@ -1,6 +1,7 @@
 ﻿using System;
 namespace Task2
-{
+{// магазин - це тільки юніт 0-го рівня)
+    // але у вас не правильно додаються елементи до рівнів і нема продуманого алгоритму обходу по деревовидній системі.
     internal class Shop
     {
         public string Name { get; private set; }
