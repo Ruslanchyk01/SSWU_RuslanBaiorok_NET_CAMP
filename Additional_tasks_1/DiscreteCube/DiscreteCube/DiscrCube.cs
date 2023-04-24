@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-
+// Увас не враховано подібність проходження між гранями, а також алгоритмічно не все добре тут.
 namespace DiscreteCube
 {
     // нажаль лише зміг реалізувати пошук вертикалей та горизонталей
