@@ -2,7 +2,7 @@
 using System.Drawing;
 
 namespace Home_task_5
-{
+{// Цей алгоритм зараховую.
     public class Tree
     {
         private readonly int _x;
