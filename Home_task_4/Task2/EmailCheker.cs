@@ -106,7 +106,7 @@ namespace Task2
         }
 
         private bool IsAllowedUnquotedChar(char c, int index, string localPart)
-        {
+        {//користуйтесь методами char.IsLetter()
             if (c >= 'a' && c <= 'z')
             {
                 return true;
