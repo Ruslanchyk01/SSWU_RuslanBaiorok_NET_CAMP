@@ -3,9 +3,16 @@ namespace Task3
 {
 	public class Text
 	{
-        public static IEnumerable<string> GetUniqueWords(string text)
+        private readonly string _text;
+
+        public Text(string text)
         {
-            string[] words = text.Split(new char[] { ' ', ',', '.', ':', ';', '!', '?', '\n', '\r', '\t' }, StringSplitOptions.RemoveEmptyEntries);
+            _text = text;
+        }
+
+        public IEnumerable<string> GetUniqueWords()
+        {
+            string[] words = _text.Split(new char[] { ' ', ',', '.', ':', ';', '!', '?', '\n', '\r', '\t' }, StringSplitOptions.RemoveEmptyEntries);
             for (int i = 0; i < words.Length; i++)
             {
                 bool noRepeating = true;
