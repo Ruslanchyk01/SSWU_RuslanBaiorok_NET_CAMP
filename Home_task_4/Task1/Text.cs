@@ -2,7 +2,7 @@
 using System.Text;
 
 namespace Task1
-{
+{// Вихідний текст мав бути колекцією стрічок, яку не можна зливати. Це алгоритмічно важча задача, ніж та, що Ви розв'язуєте
     internal class Text
 	{
 		private readonly string _text;
