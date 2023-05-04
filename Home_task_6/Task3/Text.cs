@@ -1,6 +1,6 @@
 ﻿using System;
 namespace Task3
-{
+{// Все добре. Сумарний бал - 95.
 	public class Text
 	{
         private readonly string _text;
@@ -13,7 +13,8 @@ namespace Task3
         public IEnumerable<string> GetUniqueWords()
         {
             string[] words = _text.Split(new char[] { ' ', ',', '.', ':', ';', '!', '?', '\n', '\r', '\t' }, StringSplitOptions.RemoveEmptyEntries);
-            for (int i = 0; i < words.Length; i++)
+          
+		for (int i = 0; i < words.Length; i++)
             {
                 bool noRepeating = true;
                 for (int j = 0; j < words.Length; j++)
