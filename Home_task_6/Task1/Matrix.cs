@@ -24,7 +24,7 @@ namespace Task1
         }
 
         private object GenerateRandomValue()
-        {
+        {// На попередньому занятті вкінці Перевощенко розказував як можна привести до масиву типу T.
             Random random = new Random();
 
             int minValue = 1;
