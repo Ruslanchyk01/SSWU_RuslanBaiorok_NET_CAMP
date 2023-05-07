@@ -7,3 +7,4 @@ foreach (string word in text.GetUniqueWords())
 {
     Console.Write($"{word}, ");
 }
+Console.WriteLine(text);

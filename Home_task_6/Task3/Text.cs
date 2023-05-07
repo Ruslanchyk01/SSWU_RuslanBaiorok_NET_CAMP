@@ -32,6 +32,10 @@ namespace Task3
             }
         }
 
+        public override string? ToString()
+        {
+            return _text;
+        }
     }
 }
 
