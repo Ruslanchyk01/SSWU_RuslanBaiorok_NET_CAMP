@@ -7,7 +7,7 @@ namespace Task2
 	{
         // сортування без об'єднання масивів у щось одне ціле
         public static IEnumerable<int> SortArraysWithoutMerging(params int[][] arrays)
-        {
+        {// Можна без виділення останнього
             for (int a = 0; a < arrays.Length; a++)
             {
                 bool isLastArray = (a == arrays.Length - 1);

@@ -24,7 +24,7 @@ namespace Task1
         }
 
         private object GenerateRandomValue()
-        {
+        {// На попередньому занятті вкінці Перевощенко розказував як можна привести до масиву типу T.
             Random random = new Random();
 
             int minValue = 1;
@@ -50,7 +50,7 @@ namespace Task1
             {
                 int row = down ? (i < cols ? 0 : i - cols + 1) : (i < rows ? i : rows - 1);
                 int col = down ? (i < cols ? i : cols - 1) : (i < rows ? 0 : i - rows + 1);
-
+// Можна оптимізованіше.
                 while (row >= 0 && col >= 0 && row < rows && col < cols)
                 {
                     yield return _matrix[row, col];
