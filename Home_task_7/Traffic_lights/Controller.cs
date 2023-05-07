@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Traffic_lights
 {
-    class Controller
+    class Controller : IController
     {
         private readonly List<TrafficLight> _trafficLights;
         private readonly Crossroads _crossroads;
@@ -13,7 +13,7 @@ namespace Traffic_lights
         }
 
         // Метод для зміни таймерів кольорів світлофорів
-        public void ChangeLightDurations()
+        private void ChangeLightDurations()
         {
             Console.WriteLine("Enter the new duration for each light color:");
             Console.Write($"Red: ");
@@ -64,7 +64,6 @@ namespace Traffic_lights
                 }
             }
         }
-
     }
 }
 

@@ -3,9 +3,9 @@ using System.Text;
 
 namespace Traffic_lights
 {
-    public class Crossroads
+    public class Crossroads : ICrossroads
     {
-        private List<TrafficLight> _trafficLights;
+        private readonly List<TrafficLight> _trafficLights;
 
         public Crossroads(List<TrafficLight> trafficLights)
         {
@@ -72,6 +72,5 @@ namespace Traffic_lights
                 }
             }
         }
-
     }
 }

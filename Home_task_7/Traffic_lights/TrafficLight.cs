@@ -2,13 +2,10 @@
 
 namespace Traffic_lights
 {
-    // кольори світлофора
-    public enum LightColor { Red, Yellow, Green }
-
     // делегат, що сповіщатиме про зміну кольору
     public delegate void LightChangedEvent(TrafficLight trafficLight);
 
-    public class TrafficLight
+    public class TrafficLight : ITrafficLight
     {
         private LightColor _currentColor;
         private string _name;
