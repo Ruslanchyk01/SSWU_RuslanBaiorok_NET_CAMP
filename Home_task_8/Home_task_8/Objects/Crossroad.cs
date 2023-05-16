@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using Home_task_8.Interfaces;
 
 namespace Home_task_8.Objects
@@ -6,7 +7,7 @@ namespace Home_task_8.Objects
     public class Crossroad : ICrossroad
     {
         private static int _lastId = 0;
-        private List<Lane> _lanes;
+        private readonly List<Lane> _lanes;
 
         public Crossroad(List<Lane> lanes)
         {
@@ -24,6 +25,16 @@ namespace Home_task_8.Objects
 
         public int Id { get; }
         public List<Lane> Lanes { get => _lanes; }
+
+        public override string? ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            foreach(var lane in _lanes)
+            {
+                sb.Append($"Crossroad #{Id}: \n{lane}\n");
+            }
+            return sb.ToString();
+        }
 
         private void TrafficLightChanged(TrafficLight trafficLight, bool isGreenArrow)
         {

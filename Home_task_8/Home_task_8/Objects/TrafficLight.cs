@@ -15,9 +15,8 @@ namespace Home_task_8.Objects
         private int _greenDuration;
 
         private int _greenArrowDuration;
+        private int _greenArrowAfterRed;
         private bool _isGreenArrow = false;
-
-        private int greenArrowAfterRed;
 
         public TrafficLight(int redDuration, int yellowDuration, int greenDuration, LightColor color, bool isGreenArrow)
         {
@@ -30,8 +29,8 @@ namespace Home_task_8.Objects
             _isGreenArrow = isGreenArrow;
             if (_isGreenArrow)
             {
-                greenArrowAfterRed = _redDuration / 3;
-                _greenArrowDuration = redDuration + yellowDuration + greenDuration - greenArrowAfterRed;
+                _greenArrowAfterRed = _redDuration / 3;
+                _greenArrowDuration = redDuration + yellowDuration + greenDuration - _greenArrowAfterRed;
             }
         }
 
@@ -58,9 +57,9 @@ namespace Home_task_8.Objects
                 case LightColor.Red:
                     if (_isGreenArrow)
                     {
-                        Thread.Sleep((_redDuration - greenArrowAfterRed) * 1000);
+                        Thread.Sleep((_redDuration - _greenArrowAfterRed) * 1000);
                         LightChanged?.Invoke(this, _isGreenArrow);
-                        Thread.Sleep(greenArrowAfterRed * 1000);
+                        Thread.Sleep(_greenArrowAfterRed * 1000);
                         _currentColor = LightColor.Yellow;
                         LightChanged?.Invoke(this, _isGreenArrow);
 
@@ -96,8 +95,8 @@ namespace Home_task_8.Objects
             _greenDuration = greenDuration;
             if (_isGreenArrow)
             {
-                greenArrowAfterRed = _redDuration / 3;
-                _greenArrowDuration = redDuration + yellowDuration + greenDuration - greenArrowAfterRed;
+                _greenArrowAfterRed = _redDuration / 3;
+                _greenArrowDuration = redDuration + yellowDuration + greenDuration - _greenArrowAfterRed;
             }
         }
     }

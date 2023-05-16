@@ -20,7 +20,7 @@ namespace Home_task_8.Objects
 
         public override string? ToString()
         {
-            return $"Lane {Direction}: {TrafficLight.CurrentColor}";
+            return $"Lane {Direction}: current color - {TrafficLight.CurrentColor}\nDurations:\n{TrafficLight}";
         }
     }
 }

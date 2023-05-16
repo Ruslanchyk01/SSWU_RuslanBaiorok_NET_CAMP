@@ -106,9 +106,6 @@ namespace Home_task_8
                 throw new ArgumentException("Invalid lane configuration. At least one North/South lane and one East/West lane are required.");
             }
         }
-
-
     }
-
 }
 

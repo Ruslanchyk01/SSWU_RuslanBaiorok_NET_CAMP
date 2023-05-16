@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using Home_task_8.Interfaces;
 
 namespace Home_task_8.Objects
@@ -13,6 +14,16 @@ namespace Home_task_8.Objects
         }
 
         public List<Crossroad> Crossroads { get => _crossroads; }
+
+        public override string? ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            foreach(var crossroad in _crossroads)
+            {
+                sb.Append(crossroad);
+            }
+            return sb.ToString();
+        }
 
         public void Simulation()
         {
@@ -53,6 +64,5 @@ namespace Home_task_8.Objects
             Console.WriteLine("Traffic simulation completed.");
         }
     }
-
 }
 
