@@ -1,6 +1,6 @@
 ﻿using System;
 namespace Traffic_lights
-{
+{// в ідеалі контролер має реалізувати паттерн медіатор. У Вас не повна версія. Будем ще вчити)
     class Controller : IController
     {
         private readonly List<TrafficLight> _trafficLights;
