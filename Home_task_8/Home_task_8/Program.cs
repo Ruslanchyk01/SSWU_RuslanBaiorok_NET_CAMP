@@ -1,5 +1,6 @@
 ﻿using Home_task_8;
 using Home_task_8.Enums;
+using Home_task_8.Interfaces;
 using Home_task_8.Objects;
 
 TrafficLight trafficLight1 = new(10, 2, 5, LightColor.Green, false);

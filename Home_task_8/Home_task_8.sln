@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1705.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Home_task_8", "Home_task_8\Home_task_8.csproj", "{C2A96AA1-6DF5-4970-AEFE-021A585458FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildEvent", "ChildEvent\ChildEvent.csproj", "{DB07CDBE-1342-40AF-BF66-510DB32CB45E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C2A96AA1-6DF5-4970-AEFE-021A585458FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2A96AA1-6DF5-4970-AEFE-021A585458FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2A96AA1-6DF5-4970-AEFE-021A585458FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB07CDBE-1342-40AF-BF66-510DB32CB45E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB07CDBE-1342-40AF-BF66-510DB32CB45E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB07CDBE-1342-40AF-BF66-510DB32CB45E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB07CDBE-1342-40AF-BF66-510DB32CB45E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
