@@ -8,7 +8,7 @@
 3. Ну b є опція зміни таймерів
 Ps. Зробив так, що можна вийти із симуляції світлофорів в головне меню контролера, щоб закрити програму, або змінити таймери і знову запустити симуляцію*/
 using Traffic_lights;
-
+Світлофорів повинно бути 4.
 TrafficLight northSouth = new TrafficLight("North-South", 5, 1, 3, LightColor.Red);
 TrafficLight eastWest = new TrafficLight("East-West", 5, 1, 3, LightColor.Green);
 
