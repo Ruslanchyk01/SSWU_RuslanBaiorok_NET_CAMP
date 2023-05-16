@@ -17,7 +17,6 @@ namespace Home_task_8.Objects
 
             foreach (Lane lane in _lanes)
             {
-                lane.TrafficLight.LightChanged -= TrafficLightChanged;
                 lane.TrafficLight.LightChanged += TrafficLightChanged;
             }
         }

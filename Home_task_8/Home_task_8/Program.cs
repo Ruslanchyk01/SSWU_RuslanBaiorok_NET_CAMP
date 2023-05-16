@@ -14,9 +14,15 @@ Lane lane3 = new(LaneDirection.West, trafficLight3);
 TrafficLight trafficLight4 = new(10, 2, 5, LightColor.Red, true);
 Lane lane4 = new(LaneDirection.South, trafficLight4);
 
+TrafficLight trafficLight5 = new(10, 2, 5, LightColor.Green, true);
+Lane lane5 = new(LaneDirection.West, trafficLight5);
+
+TrafficLight trafficLight6 = new(10, 2, 5, LightColor.Red, true);
+Lane lane6 = new(LaneDirection.South, trafficLight6);
+
 Crossroad crossroads1 = new(new List<Lane> { lane1, lane2, lane3, lane4 });
 
-Crossroad crossroads2 = new(new List<Lane> { lane3, lane4 });
+Crossroad crossroads2 = new(new List<Lane> { lane5, lane6 });
 
 TrafficSimulator trafficSimulator = new(new List<Crossroad> { crossroads1, crossroads2 });
 

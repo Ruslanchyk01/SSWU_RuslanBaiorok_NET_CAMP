@@ -41,7 +41,7 @@ namespace Home_task_8.Objects
                     }
                     foreach (var lane in crossroad.Lanes)
                     {
-                        Console.WriteLine(lane);
+                        Console.WriteLine($"Lane {lane.Direction}: {lane.TrafficLight.CurrentColor}");
                     }
                     Console.WriteLine();
                 }
@@ -53,7 +53,7 @@ namespace Home_task_8.Objects
                     Console.WriteLine($"Crossroad {crossroad.Id}:");
                     foreach (var lane in crossroad.Lanes)
                     {
-                        Console.WriteLine(lane);
+                        Console.WriteLine($"Lane {lane.Direction}: {lane.TrafficLight.CurrentColor}");
                     }
                     Console.WriteLine();
                 }
